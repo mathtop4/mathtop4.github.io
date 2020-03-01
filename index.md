@@ -4,6 +4,7 @@ title: math-top4
 ---
 
 <div id="home">
+  <h1> 最新文章目录 </h1>
   <ul class="posts">
     {% for cat in site.categories %}
       {% if cat[0] == "math" %}
