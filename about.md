@@ -21,5 +21,5 @@ permalink: /about/
 - 期刊社的邮箱提醒订阅。
 - 期刊的feedRSS订阅。
 
-公众号二维码：
+公众号二维码：   
 ![avatar](/wechat-top4.jpg)
