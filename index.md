@@ -7,17 +7,25 @@ title: math-top4
   <h1> 最新目录 </h1>
   <ul class="posts">
     {% for cat in site.categories %}
-      {% if cat[0] == "math" %}
-        <h1> 最新一期目录 </h1>
+      <!-- {% if cat[0] == "annals" %}
+        <h1> annals最新一期目录 </h1>
       {% endif %}
-      {% if cat[0] == "AI" %}
-        <h1> {{ cat[0] }}文章列表 </h1>
+      {% if cat[0] == "acta" %}
+        <h1> acta最新一期目录 </h1>
       {% endif %}
+      {% if cat[0] == "acta" %}
+        <h1> acta最新一期目录 </h1>
+      {% endif %}
+      {% if cat[0] == "acta" %}
+        <h1> acta最新一期目录 </h1>
+      {% endif %} -->
       {% if cat[0] == "other" %}
-        <h1> 其他文章列表 </h1>
+        <h1> 相关文章 </h1>
       {% endif %}
       {% for post in cat[1] %}
+        <!-- {% for post in site.related_posts limit:1 %} -->
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        <!-- {% endfor %} -->
       {% endfor %}
     {% endfor %}
   </ul>
