@@ -1,1 +1,6 @@
-# mathtop4.github.io
+# 数学四大杂志小助手
+
+## 途径
+
+- 关注微信公众号"**数学四大杂志小助手**"
+- 关注网站<a href="https://mathtop4.github.io/">数学四大杂志小助手官网</a>
