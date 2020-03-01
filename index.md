@@ -1,13 +1,13 @@
 ---
 layout: default
-title: 13AI
+title: math-top4
 ---
 
 <div id="home">
   <ul class="posts">
     {% for cat in site.categories %}
       {% if cat[0] == "math" %}
-        <h1> 数学文章列表 </h1>
+        <h1> 最新一期目录 </h1>
       {% endif %}
       {% if cat[0] == "AI" %}
         <h1> {{ cat[0] }}文章列表 </h1>
@@ -21,11 +21,12 @@ title: 13AI
     {% endfor %}
   </ul>
 
-  <h1>相关推荐</h1>
+  <h1>四大杂志官网</h1>
   <ul class="posts">
-    <li><span>29 Mar 2019</span> &raquo; <a href="http://www.markdown.cn/"> Markdown 语法说明</a></li> 
-    <li><span>01 May 2019</span> &raquo; <a href="https://inkscape.org/zh/learn/tutorials/"> Inkscape 教程</a></li> 
-    <li><span>01 May 2019</span> &raquo; <a href="https://jekyllrb.com/tutorials/navigation/#scenario-8-retrieving-items-based-on-front-matter-properties"> jekyll 教程</a></li> 
+    <li><span>29 Feb 2020</span> &raquo; <a href="http://annals.math.princeton.edu/">Annals of Mathematics</a>
+    <li><span>29 Feb 2020</span> &raquo; <a href="https://www.intlpress.com/site/pub/pages/journals/items/acta/_home/_main/index.php">Acta Mathematica</a>
+    <li><span>29 Feb 2020</span> &raquo; <a href="http://www.ams.org/journals/jams/all_issues.html">Journal Of The American Mathematical Society</a>
+    <li><span>29 Feb 2020</span> &raquo; <a href="https://link.springer.com/journal/volumesAndIssues/222">Inventiones Mathematicae</a>
   
   </ul>
 
