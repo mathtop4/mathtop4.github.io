@@ -23,9 +23,7 @@ title: math-top4
         <h1> 相关文章 </h1>
       {% endif %}
       {% for post in cat[1] %}
-        <!-- {% for post in site.related_posts limit:1 %} -->
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        <!-- {% endfor %} -->
       {% endfor %}
     {% endfor %}
   </ul>
