@@ -22,6 +22,7 @@ title: math-top4
     {% for post in site.categories.other %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+  </ul>
     <!-- {% for cat in site.categories %}
       {% if cat[0] == "other" %}
         <h1> 相关文章 </h1>
@@ -30,7 +31,7 @@ title: math-top4
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     {% endfor %} -->
-  </ul>
+  <!-- </ul> -->
 
   <h1>四大杂志官网</h1>
   <ul class="posts">
