@@ -6,7 +6,7 @@ title: Inventions
 <div id="home">
     <h1>Inventions 目录列表</h1>
     <ul class="posts">
-        {% for post in site.categories.inventions %}
+        {% for post in site.categories.inventiones %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
