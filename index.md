@@ -18,14 +18,18 @@ title: math-top4
     {% for post in site.categories.inventions %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-    {% for cat in site.categories %}
+    <h1> 相关文章 </h1>
+    {% for post in site.categories.other %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    <!-- {% for cat in site.categories %}
       {% if cat[0] == "other" %}
         <h1> 相关文章 </h1>
       {% endif %}
       {% for post in cat[1] %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
-    {% endfor %}
+    {% endfor %} -->
   </ul>
 
   <h1>四大杂志官网</h1>
