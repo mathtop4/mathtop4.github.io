@@ -6,7 +6,7 @@ title: math-top4
 <div id="home">
   <h1> 最新目录 </h1>
   <ul class="posts">
-    {% for post in site.categories.annals %}
+    {% for post in site.categories.annals.related_posts limit:1 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     {% for post in site.categories.acta %}
@@ -15,7 +15,7 @@ title: math-top4
     {% for post in site.categories.jams %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-    {% for post in site.categories.inventiones %}
+    {% for post in site.categories.inventiones.related_posts limit:1 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     <h1> 相关文章 </h1>
