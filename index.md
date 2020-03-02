@@ -9,10 +9,10 @@ title: math-top4
     {% for post in site.categories.annals limit:1 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-    {% for post in site.categories.acta %}
+    {% for post in site.categories.acta limit:1  %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-    {% for post in site.categories.jams %}
+    {% for post in site.categories.jams limit:1  %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     {% for post in site.categories.inventiones limit:1 %}
