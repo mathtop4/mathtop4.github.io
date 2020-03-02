@@ -6,19 +6,19 @@ title: math-top4
 <div id="home">
   <h1> 最新目录 </h1>
   <ul class="posts">
+    {% for post in site.categories.annals %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    {% for post in site.categories.acta %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    {% for post in site.categories.jams %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    {% for post in site.categories.inventions %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
     {% for cat in site.categories %}
-      <!-- {% if cat[0] == "annals" %}
-        <h1> annals最新一期目录 </h1>
-      {% endif %}
-      {% if cat[0] == "acta" %}
-        <h1> acta最新一期目录 </h1>
-      {% endif %}
-      {% if cat[0] == "acta" %}
-        <h1> acta最新一期目录 </h1>
-      {% endif %}
-      {% if cat[0] == "acta" %}
-        <h1> acta最新一期目录 </h1>
-      {% endif %} -->
       {% if cat[0] == "other" %}
         <h1> 相关文章 </h1>
       {% endif %}
