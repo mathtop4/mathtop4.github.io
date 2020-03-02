@@ -37,7 +37,7 @@ title: math-top4
   <ul class="posts">
     <li><span>29 Feb 2020</span> &raquo; <a href="http://annals.math.princeton.edu/">Annals of Mathematics</a></li>
     <li><span>29 Feb 2020</span> &raquo; <a href="https://www.intlpress.com/site/pub/pages/journals/items/acta/_home/_main/index.php">Acta Mathematica</a></li>
-    <li><span>29 Feb 2020</span> &raquo; <a href="http://www.ams.org/journals/jams/all_issues.html">Journal Of The American Mathematical Society</a></li>
+    <li><span>29 Feb 2020</span> &raquo; <a href="http://www.ams.org/journals/jams/all_issues.html">Journal of The American Mathematical Society</a></li>
     <li><span>29 Feb 2020</span> &raquo; <a href="https://link.springer.com/journal/volumesAndIssues/222">Inventiones Mathematicae</a></li>
   </ul>
 </div>
