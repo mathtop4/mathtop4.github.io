@@ -15,7 +15,7 @@ title: math-top4
     {% for post in site.categories.jams %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-    {% for post in site.categories.inventions %}
+    {% for post in site.categories.inventiones %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     <h1> 相关文章 </h1>
